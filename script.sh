@@ -30,4 +30,5 @@ Run this in ssh instance
  ${RESET}"
 gcloud compute scp ssh.sh centos-clean:~
 rm $HOME/./.bash_history.swp
-rm $HOME/./.bash_history
+# rm $HOME/./.bash_history
+nano $HOME/./.bash_history
