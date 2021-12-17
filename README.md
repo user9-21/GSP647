@@ -1,2 +1,2 @@
 # GSP630
-(Configuring Networks via gcloud)[https://www.cloudskillsboost.google/focuses/7140?parent=catalog]
+[Configuring Networks via gcloud](https://www.cloudskillsboost.google/focuses/7140?parent=catalog)
