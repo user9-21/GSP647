@@ -90,6 +90,9 @@ gcloud config set project $PROJECTID2
 gcloud iam service-accounts create devops --display-name devops
 gcloud iam service-accounts list  --filter "displayName=devops"
 SA=$(gcloud iam service-accounts list --format="value(email)" --filter "displayName=devops")
+read -p "Continue? " NA
+
+sleep 10000
 gcloud projects add-iam-policy-binding $PROJECTID2 --member serviceAccount:$SA --role=roles/iam.serviceAccountUser
 gcloud projects add-iam-policy-binding $PROJECTID2 --member serviceAccount:$SA --role=roles/compute.instanceAdmin
 gcloud compute instances create lab-3 --service-account $SA --scopes "https://www.googleapis.com/auth/compute"
