@@ -1,5 +1,5 @@
 # GSP647
-### [Configuring Networks via gcloud](https://www.cloudskillsboost.google/focuses/7140?parent=catalog)
+### [Configuring IAM Permissions with gcloud](https://www.cloudskillsboost.google/focuses/7678?parent=catalog)
 
 ```
 git clone https://github.com/user9-21/GSP647
